@@ -1,0 +1,15 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:cvt="clr-namespace:CloudToolkit.Converters">
+    <cvt:BooleanToBackgroundConverter x:Key="BooleanToBackgroundConverter"/>
+    <cvt:BooleanToDecorationConverter x:Key="BooleanToDecorationConverter"/>
+    <cvt:BooleanToFontWeightConverter x:Key="BooleanToFontWeightConverter"/>
+    <cvt:BooleanToVisibilityConverter x:Key="BooleanToVisibilityConverter"/>
+    <cvt:DoubleToStringConverter x:Key="DoubleToStringConverter"/>
+    <cvt:EnumToBooleanConverter x:Key="EnumToBooleanConverter"/>
+    <cvt:EnumToCollectionConverter x:Key="EnumToCollectionConverter"/>
+    <cvt:IntToStringConverter x:Key="IntToStringConverter"/>
+    <cvt:ListToStringConverter x:Key="ListToStringConverter"/>
+    <cvt:MillisecondsConverter x:Key="MillisecondsConverter"/>
+    <cvt:NotConverter x:Key="NotConverter"/>
+</ResourceDictionary>
